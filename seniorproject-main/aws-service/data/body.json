@@ -1,0 +1,16 @@
+{
+  "body": "{\n        \"userId\":\"gar\",\n        \"password\":\"sdfsd\",\n        \"role\":\"PATIENT\"\n    }"
+}
+{
+ "body":"{ \"puser\":\"gar\",\"information\":\"asdfasdf\" }"
+}
+{
+ "body":"{\"user\": \"gar\", \"pass\":\"sdfsd\" }"
+}
+{
+ "body":"{\"key\": \"gar\"}"
+}
+
+{
+ "body":"{\"user\": \"gar\", \"month\": \"3\", \"hour\": \"15\", \"minute\": \"23\"}"
+}

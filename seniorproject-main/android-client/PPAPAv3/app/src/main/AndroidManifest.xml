@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ppapav3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PPAPAv3">
+        <activity android:name=".breakageDetected"></activity>
+        <activity android:name=".createGoodTime" />
+        <activity android:name=".createBadPresc" />
+        <activity android:name=".createGoodPresc" />
+        <activity android:name=".createGood2" />
+        <activity android:name=".createGood3" />
+        <activity android:name=".model.createGood2" />
+        <activity android:name=".createGood" />
+        <activity android:name=".addPrescr" />
+        <activity android:name=".editPharm" />
+        <activity android:name=".pharmMainPage" />
+        <activity android:name=".patientReady" />
+        <activity android:name=".patientMainPage" />
+        <activity android:name=".doctorEdit" />
+        <activity android:name=".doctorReady" />
+        <activity android:name=".doctorMainPage" />
+        <activity android:name=".pharmLogin" />
+        <activity android:name=".patientLogin" />
+        <activity android:name=".doctorLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
